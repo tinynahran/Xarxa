@@ -73,10 +73,4 @@ Years = list(range(2000, 2019))
 #Names: Indy1, Dep1, cinfra
 #Logit Model: 1: Dep is binary; 2 Dep is ordinal
 #print(Years)
-from cross_section import cross_section
-section1 = cross_section(2000,2002,2003,1)
-section2 = cross_section(2003,2005,2006,2)
-section3 = cross_section(2006,2008,2009,3)
-section4 = cross_section(2009,2011,2012,4)
-section5 = cross_section(2012,2014,2015,5)
-#section6 = cross_section(2015,2017,2018,6)
+
